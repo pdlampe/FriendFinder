@@ -141,10 +141,29 @@
                     <option value="5">5 (Strongly Agree)</option>
                 </select>
                 <br>
+                <button type="submit" data-target="modal_button"
+                    class="waves-effect waves-light btn modal-trigger cyan darken-3" id="submitBtn"><i
+                        class="material-icons">thumb_up</i> Submit</button>
+
+            </div>
+
+            <div id="modal_button" class="modal">
+                <div class="modal-content">
+                    <h4>Best Match</h4>
+                    <h5 id="matchName"></h5>
+                    <img id="matchPic" src="" alt="No Image" width=250px>
+                </div>
+                <div class="modal-footer">
+                    <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">Done</a>
+                </div>
             </div>
         </div>
-
-        <script src="" async defer></script>
+        <div class='col s4'>
+            <p><a href='/api/friends'>API Friends List</a> | <a href='https://github.com/StefanieDing/friend-finder'
+                    target='_blank'>GitHub Repo</a></p>
+        </div>
+    </div>
+    <script src="" async defer></script>
 </body>
 
 </html>
