@@ -1,6 +1,5 @@
 $(document).ready(function () {
     $("#submitHere").on("click", function () {
-
         function validateForm() {
             var isValid = true;
             $('.validate').each(function () {

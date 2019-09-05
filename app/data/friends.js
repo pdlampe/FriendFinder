@@ -1,7 +1,7 @@
-var friendList = [
+var friendDataBase = [
     {
         name: 'Paul David Lampe',
-        profilePic: 'https://avatars1.githubusercontent.com/u/49738794?s=460&v=4',
+        profilePic: 'https://media.licdn.com/dms/image/C4D03AQFoi57TkyKKmg/profile-displayphoto-shrink_200_200/0?e=1573084800&v=beta&t=_8EiV-ntAk1NO41LZ3Su4VU2ggZfy2LeTxS1sbUMk1g',
         scores: [
             "3",
             "4",
@@ -17,4 +17,4 @@ var friendList = [
     }
 ]
 
-module.exports = friendList;
+module.exports = friendDataBase;
