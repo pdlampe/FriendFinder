@@ -28,6 +28,8 @@ module.exports = function (app) {
         }
         var returnMatch = friendDataBase[bestMatch];
         res.json(returnMatch);
+
+        friendDataBase.push(req.body);
     });
-    friendDataBase.push(req.body);
+
 };
