@@ -3,27 +3,27 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.17.1",
-    "path": "^0.12.7"
-  },
-  "devDependencies": {
-    "nodemon": "^1.19.2"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pdlampe/FriendFinder.git"
+    "url": "git+https://github.com/StefanieDing/friend-finder.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Stefanie Ding",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pdlampe/FriendFinder/issues"
+    "url": "https://github.com/StefanieDing/friend-finder/issues"
   },
-  "homepage": "https://github.com/pdlampe/FriendFinder#readme"
+  "homepage": "https://github.com/StefanieDing/friend-finder#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mysql": "^2.11.1",
+    "path": "^0.12.7"
+  },
+  "engines": {
+    "node": "6.11.1"
+  }
 }
