@@ -21,16 +21,16 @@ $(document).ready(function () {
                 name: $('#name').val().trim(),
                 profilePic: $('#photo').val().trim(),
                 scores: [
-                    $('#question11').val(),
-                    $('#question12').val(),
-                    $('#question13').val(),
-                    $('#question14').val(),
-                    $('#question15').val(),
-                    $('#question16').val(),
-                    $('#question17').val(),
-                    $('#question18').val(),
-                    $('#question19').val(),
-                    $('#question110').val(),
+                    $('#question1').val(),
+                    $('#question2').val(),
+                    $('#question3').val(),
+                    $('#question4').val(),
+                    $('#question5').val(),
+                    $('#question6').val(),
+                    $('#question7').val(),
+                    $('#question8').val(),
+                    $('#question9').val(),
+                    $('#question10').val(),
                 ]
             };
 
@@ -57,7 +57,7 @@ $(document).ready(function () {
             $('#question9').val("");
             $('#question10').val("");
         } else {
-            alert("Please fill out ALL fields before submitting survey.")
+            alert("Please fill out all fields before submitting survey.")
         }
 
     });
