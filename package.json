@@ -9,12 +9,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/StefanieDing/friend-finder.git"
+    "url": "git+https://github.com/pdlampe/FriendFinder.git"
   },
   "author": "Paul David Lampe",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/StefanieDing/friend-finder/issues"
+    "url": "https://github.com/pdlampe/friendfinder/issues"
   },
   "homepage": "https://github.com/pdlampe/FriendFinder",
   "dependencies": {
